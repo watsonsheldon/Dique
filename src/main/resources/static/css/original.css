@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+
+.mc_page_width {
+	width:830px;
+	margin-right: auto;
+	margin-left : auto;
+}
+
+.mc_a {
+	text-decoration: none !important;
+}
+
+.mc_span_space_left {
+	display:inline-block;
+	vertical-align: top;
+	margin-top: -2px;
+	margin-right: -4px;
+	margin-left : -4px;
+}
+
+.mc_span_space_right {
+	display:inline-block;
+	vertical-align: top;
+	margin-top: -2px;
+	margin-right: -8px;
+	margin-left : -4px;
+	padding-right: 10px;
+}
+
+/*------------------------------------------------header---------------------------------------------------*/
+
+.mc_header {
+	background-color: #000000;
+	color: white;
+	border-bottom: solid;
+	border-width: 3px;
+	height: 100px;
+}
+
+.mc_header_a {
+	text-decoration: none !important;
+	color: white !important;
+}
+
+.mc_header_title {
+    display: inline-block;
+    padding: 20px;
+    float: left;
+}
+
+.mc_header_submit {
+	display: inline-block;
+	margin: 35px 5px 0px 0px;
+	float: right;
+}
+
+.mc_header_input {
+	display: inline-block;
+	margin: 35px 5px 0px 0px;
+	float: right;
+}
+
+/*------------------------------------------------body---------------------------------------------------*/
+
+.mc_body {
+	background-color: #000000;
+	color: white;
+}
+
+/*------------------------------------------------space---------------------------------------------------*/
+
+.mc_body_top_space {
+	height: 20px;
+}
+
+/*------------------------------------------------sidemenu---------------------------------------------------*/
+
+.mc_body_sidemenu {
+	width: 200px;
+	display: inline-block;
+}
+
+.mc_body_sidemenu_h2 {
+	height: 50px;
+	font-size:130%;
+	margin: 10px 0px 10px 20px;
+	border-bottom: solid;
+	border-color: #696969;
+}
+
+.mc_body_sidemenu_small {
+	display: block;
+	font-size:50%;
+}
+
+.mc_body_sidemenu_ul {
+	list-style: none;
+}
+
+.mc_body_sidemenu_li {
+	height: 50px;
+	font-size:100%;
+	margin: 10px 0px 10px 0px;
+	border-bottom: solid;
+	border-color: #696969;
+}
+
+/*------------------------------------------------space---------------------------------------------------*/
+
+.mc_body_space {
+	width: 20px;
+    display: inline-block;
+}
+
+/*------------------------------------------------timeline---------------------------------------------------*/
+
+.mc_body_timeline {
+	width: 600px;
+    display: inline-block;
+    vertical-align: top;/*これないとずれる*/
+}
+
+.mc_body_timeline_h2 {
+	height: 50px;
+	font-size:130%;
+	margin: 10px 0px 10px 0px;
+	border-bottom: solid;
+	border-color: #696969;
+}
+
+.mc_body_timeline_small {
+	display: block;
+	font-size:50%;
+}
+
+.mc_body_timeline_ul {
+	list-style: none;
+}
+
+.mc_body_timeline_li {
+	height: 50px;
+	font-size:140%;
+	margin: 10px 0px 10px 0px;
+	border-bottom: solid;
+	border-color: #696969;
+}
+

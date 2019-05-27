@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Biginto</title>
+<link rel="stylesheet" href="/css/bootstrap.css" />
+<link rel="stylesheet" href="/css/original.css" />
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.js"></script>
+</head>
+<header th:replace="fragments/header :: header_fragment"> </header>
+<body class="mc_body">
+	<div class="mc_body_top_space"></div>
+	<div class="mc_page_width">
+		<div th:replace="fragments/sidemenu :: sidemenu_fragment"></div>
+		<div class="mc_body_space"></div>
+		<div class="mc_body_timeline">
+			<h2 class="mc_body_timeline_h2">
+				タイムライン<small class="mc_body_timeline_small">Timeline</small>
+			</h2>
+			<ul th:each="pages_obj : ${pages_data_list}" class="mc_body_timeline_ul">
+				<li class="mc_body_timeline_li">
+				<span class="mc_span_space_left">[</span>
+				<a class="mc_a" href=""><span th:text="${pages_obj.tag}">test_tag</span></a>
+				<span class="mc_span_space_right">]</span>
+				<a class="mc_a" th:href="${pages_obj.link}"><span th:text="${pages_obj.title}">Web開発楽しい</span></a>
+				<small class="mc_body_timeline_small" th:text="${@dateFormatter.format(__${pages_obj.date}__L)}">2018-12-17 17:20</small>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.mc_header {
+	background-color: #000000;
+	color: white;
+	border-bottom: solid;
+	border-width: 3px;
+	height: 100px;
+}
+
+.mc_header_title {
+	display: inline-block;
+	line-height: 100px;
+	vartical-align: middle;
+}
+
+.mc_header_input_div {
+	display: inline-block;
+	vartical-align: top;
+}
+
+.mc_header_input {
+	display: inline-block;
+}
+
+.mc_body_color {
+	background-color: #000000;
+	color: white;
+}
