@@ -1,4 +1,4 @@
-package com.biginto;
+package com.dique;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

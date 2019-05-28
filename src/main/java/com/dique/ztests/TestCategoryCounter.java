@@ -1,4 +1,4 @@
-package com.biginto.ztests;
+package com.dique.ztests;
 
 import java.io.File;
 import java.util.ArrayList;

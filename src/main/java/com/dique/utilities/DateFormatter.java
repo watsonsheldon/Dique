@@ -1,4 +1,4 @@
-package com.biginto.utilities;
+package com.dique.utilities;
 
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.biginto.controllers;
+package com.dique.controllers;
 
 import javax.annotation.PostConstruct;
 import javax.persistence.EntityManager;
@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.biginto.dao.PagesDataDaoImpl;
-import com.biginto.entities.PagesData;
-import com.biginto.repositories.PagesDataRepository;
-import com.biginto.utilities.DateFormatter;
+import com.dique.dao.PagesDataDaoImpl;
+import com.dique.entities.PagesData;
+import com.dique.repositories.PagesDataRepository;
+import com.dique.utilities.DateFormatter;
 
 
 @Controller

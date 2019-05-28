@@ -1,4 +1,4 @@
-package com.biginto.dao;
+package com.dique.dao;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import javax.persistence.Query;
 
 import org.springframework.stereotype.Repository;
 
-import com.biginto.entities.PagesData;
+import com.dique.entities.PagesData;
 
 @Repository
 public class PagesDataDaoImpl implements PagesDataDao<PagesData> {

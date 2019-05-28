@@ -1,4 +1,4 @@
-package com.biginto.entities;
+package com.dique.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

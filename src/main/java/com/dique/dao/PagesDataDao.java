@@ -1,4 +1,4 @@
-package com.biginto.dao;
+package com.dique.dao;
 
 import java.io.Serializable;
 import java.util.List;

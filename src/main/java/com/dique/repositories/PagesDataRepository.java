@@ -1,11 +1,11 @@
-package com.biginto.repositories;
+package com.dique.repositories;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.biginto.entities.PagesData;
+import com.dique.entities.PagesData;
 
 @Repository
 	public interface PagesDataRepository extends JpaRepository<PagesData, Long> {
